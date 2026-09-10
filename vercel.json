@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api" },
+    { "source": "/auth/(.*)", "destination": "/api" },
+    { "source": "/login", "destination": "/api" },
+    { "source": "/logout", "destination": "/api" },
+    { "source": "/(.*)", "destination": "/api" }
+  ]
+}
